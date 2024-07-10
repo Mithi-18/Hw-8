@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+}
+
+.container{
+    width:1170px;
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+
+}
+ul{
+    list-style-type:none
+}
+a{
+    text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+:root{
+    --bg_color:#02918c;
+    --txt_color:white;
+    --gle_font: "Pacifico", cursive;
+    --gle2_font: "Rye", serif;
+}
+    
+
+/* Nav starts*/
+nav{
+background-color:var(--bg_color);
+}
+
+nav .row{
+    align-items:center;
+    justify-content:space-between;
+}
+
+nav ul li{
+    display:inline-block;
+    padding:26px 20px;
+    
+}
+nav ul li a{
+    text-transform:uppercase;
+    color:var(--txt_color);
+
+    font-family:var(--gle_font);
+    font-weight:800;
+   
+   
+}
+/*Nav ends*/
+
+/*Banner starts*/
+#banner{
+ background-image: url("/bg\ pic.jpg");
+ height:725px;
+ background-repeat:no-repeat;
+ background-size:cover;
+ color:var(--txt_color);
+}
+
+#banner .row{
+flex-direction:column;
+align-items:center;
+justify-content:center;
+height:725px;
+}
+
+#banner h4{
+    font-size:30px;
+    font-family:var(--gle_font);
+    font-weight:400;
+}
+#banner h1{
+    font-size:68px;
+    text-transform:uppercase;
+    font-family:var(--gle2_font);
+    letter-spacing:15px;
+}
+#banner p{
+    font-size:25px;
+    font-family:var(--gle_font);
+    margin: 0 0 40px;
+}
+#banner button{
+    display:inline-block;
+    border:none;
+    background-color:#f1c40f;
+    padding:19px 42px;
+    font-family:var(--gle_font);
+    color:black;
+    font-size:35px;
+    font-weight:800;
+    cursor:pointer;
+}
+/*Banner Ends*/
+
+.txt-content{
+    text-align:center;
+}
+.txt-content h2{
+    padding:50px;
+    text-transform:uppercase;
+    font-family:var(--gle_font);
+    color:var(--bg_color);
+    font-weight:800;
+    font-size:40px;
+}
+.txt-content p{
+line-height:30px;
+font-family:var(--gle_font);
+color:#7e8287;
+font-size:20px;
+}
+.txt-content p b{
+    font-size:30px;
+    font-weight:800;
+
+}
+
+.div-content{
+    height: 400px;
+  margin-top: 100px;
+  position: relative;
+}
+.div-content1{
+  height: 350px;
+  width: 290px;
+  position: absolute;
+  top: 0;
+  left:0;
+  text-align:center;
+}
+
+.fa-solid{
+    margin:50px;
+    font-size:80px;
+    padding:10px,0px,0px;
+    text-align:center;
+    font-weight:800;
+}
+
+
+.sub-cnt h3{
+    font-size:20px;
+    font-family:var(--gle_font);
+    font-weight:400;
+    color:#7e8287;
+    padding:70px,0px,0px,100px;
+    margin-top:20px;   
+}
+.sub-cnt p{
+    font-size:20px;
+    font-family:var(--gle_font);
+    font-weight:400;
+    color:#7e8287;
+    padding:70px,0px,0px,100px;
+    margin-top:20px; 
+
+}
+
+.div-content2{
+position: absolute;
+  top: 0;
+  left: 25%;
+  height: 300px;
+  width: 25%;
+  text-align:center;
+  
+}
+
+
+.sub-cnt1 h3{
+    font-size:20px;
+    font-family:var(--gle_font);
+    font-weight:400;
+    color:#7e8287;
+    padding:70px,0px,0px,100px;
+    margin-top:20px; 
+
+
+}
+.sub-cnt1 p{
+    font-size:20px;
+    font-family:var(--gle_font);
+    font-weight:400;
+    color:#7e8287;
+    padding:70px,0px,0px,100px;
+    margin-top:20px; 
+}
+.div-content3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 350px;
+    width: 25%;
+    text-align:center;
+}
+
+.sub-cnt2 h3{
+    font-size:20px;
+    font-family:var(--gle_font);
+    font-weight:400;
+    color:#7e8287;
+    padding:70px,0px,0px,100px;
+    margin-top:20px; 
+
+}
+
+.sub-cnt2 p{
+    font-size:20px;
+    font-family:var(--gle_font);
+    font-weight:400;
+    color:#7e8287;
+    padding:70px,0px,0px,100px;
+    margin-top:20px;
+
+}
+
+.div-content4{
+  position: absolute;
+  top: 0;
+  left: 75%;
+  height: 350px;
+  width: 25%;
+  text-align:center;
+
+}
+.sub-cnt3 h3{
+    font-size:20px;
+    font-family:var(--gle_font);
+    font-weight:400;
+    color:#7e8287;
+    padding:70px,0px,0px,100px;
+    margin-top:20px;
+
+}
+.sub-cnt3 p{
+    font-size:20px;
+    font-family:var(--gle_font);
+    font-weight:400;
+    color:#7e8287;
+    padding:70px,0px,0px,100px;
+    margin-top:20px;
+
+}
+
+
+
+
+
